@@ -1,0 +1,36 @@
+.myimg{
+  max-width: 240px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+.col-lg-4 h1{
+  text-align: center;
+}
+.col-lg-4{
+  background: #909090;
+}
+.col-lg-4 div{
+text-align: center;
+}
+
+.col-lg-8{
+
+  background: #EEEEEE;
+}
+.all{
+  padding-left: 60px;
+}
+
+.midimg{
+  width: 20px;
+  float: left;
+  margin: 8px 25px;
+}
+
+
+.xsimg{
+  width: 15px;
+  margin-left: -15px;
+}
+.nodat{
+  list-style-type: none;
+}
