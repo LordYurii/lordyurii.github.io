@@ -1,5 +1,5 @@
 .container{
-  box-shadow: 0 0 20px rgba(0, 0, 0, 1); 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
 }
 .myimg{
   max-width: 240px;
@@ -8,17 +8,46 @@
 .col-lg-4 h1{
   text-align: center;
 }
-.col-lg-4{
+.col-lg-4, .col-lg-2{
   background: #909090;
 }
 .col-lg-4 div{
 text-align: center;
 }
-
-.col-lg-8{
+.col-lg-2{
+  text-align: left;
+}
+#lll{
+  text-align: left;
+}
+.col-lg-6{
 
   background: #EEEEEE;
 }
+
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    background: #EEE;
+    text-align: center;
+    margin: 30px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    font-size: 17px;
+}
+.btn:not(:disabled):not(.disabled):hover {
+    cursor: pointer;
+    background: #909090;
+    text-align: center;
+    margin: 30px 0;
+    border: 1px solid black;
+    border-radius: 13px;
+    color: #EEE;
+    font-size: 17px;
+}
+
+
 .all{
   padding-left: 60px;
 }
